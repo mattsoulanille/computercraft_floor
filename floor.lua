@@ -121,7 +121,7 @@ function place_block()
       while not selection do
 	 print("out of "..block_2)
 	 sleep(4)
-	 local selection = get_second_block()
+	 selection = get_second_block()
       end
       turtle.select(selection)
 
@@ -131,7 +131,7 @@ function place_block()
       while not selection do
 	 print("out of "..block_1)
 	 sleep(4)
-	 local selection = get_first_block()
+	 selection = get_first_block()
       end
       turtle.select(selection)
 

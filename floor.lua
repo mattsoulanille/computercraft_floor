@@ -29,7 +29,7 @@ end
 
 pattern = args[3] or "none"
 ceiling = (args[4] == "true") or false
-go_left = args[5] or false
+go_left = (args[5] == "true") or false
 
 total_blocks = forward * sideways
 

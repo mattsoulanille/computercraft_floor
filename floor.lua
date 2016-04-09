@@ -67,7 +67,7 @@ end
 --lama.set(0,100,0,lama.side.north)
 
 active_slots = {2,3}
-fuel_names = {"minecraft:coal", "Railcraft:fuel.coke"}
+fuel_names = {"minecraft:coal", "Railcraft:fuel.coke", "minecraft:blaze_rod"}
 
 
 function get_block(name)

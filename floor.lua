@@ -174,7 +174,7 @@ function travel()
 	    fuel_slot = get_fuel_slot()
 	 end
 	 turtle.select(fuel_slot)
-	 turtle.refuel()
+	 turtle.refuel(1)
       else
 	 print("Stuck")
 	 sleep(5)
